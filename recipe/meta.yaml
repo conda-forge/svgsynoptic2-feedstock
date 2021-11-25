@@ -1,5 +1,5 @@
 {% set name = "svgsynoptic2" %}
-{% set version = "4.0.0" %}
+{% set version = "4.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/svgsynoptic2-{{ version }}.tar.gz
-  sha256: ae3626604fcbe6ffc662643c0f5ce2ac81f7c2023c119233386b69656a499549
+  sha256: 65e4a1153c70a9e99894270f215b468d9886f3d0a289d75607a747071e22d19c
 
 build:
   number: 0
