@@ -1,5 +1,5 @@
 {% set name = "svgsynoptic2" %}
-{% set version = "4.1.2" %}
+{% set version = "4.1.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/svgsynoptic2-{{ version }}.tar.gz
-  sha256: b5788faa939bc709201592318550fc7696af841dc53db5ba48b07d933709d243
+  sha256: cb24f040bfb84e4f4196f30f6ff182b3753d955dd22682c1f9fe97180e25a867
 
 build:
   number: 0
@@ -19,12 +19,11 @@ requirements:
   host:
     - pip
     - python >=3.6
-    - setuptools
+    - setuptools-scm
   run:
     - pyqtwebengine
     - pytango >=9.2.1
     - python >=3.6
-    - setuptools
     - taurus >=4.5
 
 test:
