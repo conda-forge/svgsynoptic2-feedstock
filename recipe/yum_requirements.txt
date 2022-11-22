@@ -1,5 +1,6 @@
 libXcomposite
 libXcursor
+libXrandr
 libXScrnSaver
 libXtst
 mesa-libGL
