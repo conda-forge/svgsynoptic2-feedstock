@@ -16,7 +16,6 @@ The library is developed with the TANGO control system in mind,
 and has a Qt widget implementation based on Taurus.
 It should however be possible to adapt it to other systems as well.
 
-
 Current build status
 ====================
 
