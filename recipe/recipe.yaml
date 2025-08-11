@@ -33,13 +33,10 @@ tests:
   - python:
       imports:
         - svgsynoptic2
-      python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - pip
-        - python ${{ python_min }}.*
-    script:
-      - pip check
+      pip_check: true
+      python_version:
+        - ${{ python_min }}.*
+        - 3.*
 
 about:
   summary: Widget for displaying a SVG synoptic.
